@@ -13,7 +13,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-mongoose.connect("mongodb://rajooadv174:seCVQl9stbxi6mHt@ac-mirna4q-shard-00-00.lhzkbqw.mongodb.net:27017,ac-mirna4q-shard-00-01.lhzkbqw.mongodb.net:27017,ac-mirna4q-shard-00-02.lhzkbqw.mongodb.net:27017/?ssl=true&replicaSet=atlas-tyho0r-shard-0&authSource=admin&retryWrites=true&w=majority").then(() => {
+mongoose.connect("mongodb://rajooadv174:GiXzdQSM3mXzcWs0@ac-cgwfasi-shard-00-00.jktp7od.mongodb.net:27017,ac-cgwfasi-shard-00-01.jktp7od.mongodb.net:27017,ac-cgwfasi-shard-00-02.jktp7od.mongodb.net:27017/?ssl=true&replicaSet=atlas-10562r-shard-0&authSource=admin&retryWrites=true&w=majority/studentscsv").then(() => {
   console.log('DB Connected');
 }).catch((err) => {
   console.error('DB Connection Error:', err);
